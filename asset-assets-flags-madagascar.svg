@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title">
+  <title id="title">Drapeau de Madagascar</title>
+  <rect width="300" height="600" fill="#ffffff"/>
+  <rect x="300" width="600" height="300" fill="#fc3d32"/>
+  <rect x="300" y="300" width="600" height="300" fill="#007e3a"/>
+</svg>

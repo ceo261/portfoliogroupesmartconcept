@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14" role="img" aria-label="Drapeau de la Turquie">
+  <rect width="20" height="14" fill="#e30a17"/>
+  <circle cx="7.6" cy="7" r="3.4" fill="#fff"/>
+  <circle cx="8.65" cy="7" r="2.72" fill="#e30a17"/>
+  <path d="m12.02 5.34.49 1.14 1.24.12-.94.81.28 1.21-1.07-.64-1.06.64.28-1.21-.94-.81 1.24-.12Z" fill="#fff"/>
+</svg>

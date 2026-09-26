@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title">
+  <title id="title">Drapeau de l’Algérie</title>
+  <path fill="#fff" d="M0 0h900v600H0z"/>
+  <path fill="#006233" d="M0 0h450v600H0z"/>
+  <circle cx="487.5" cy="300" r="120" fill="#d21034"/>
+  <circle cx="522" cy="300" r="96" fill="#fff"/>
+  <path fill="#d21034" d="m525 300 101.1-32.9-62.5 86.1v-106.4l62.5 86.1z"/>
+</svg>

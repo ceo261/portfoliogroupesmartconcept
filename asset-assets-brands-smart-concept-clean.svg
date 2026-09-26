@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Concept</title>
+  <desc id="desc">Logo officiel Smart Concept redessiné en haute définition</desc>
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff202b"/>
+      <stop offset="1" stop-color="#c9000d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".38"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <text x="72" y="300" fill="#f7f5f1" font-family="Georgia, 'Times New Roman', serif" font-size="282" font-weight="700" letter-spacing="-18">SM</text>
+    <rect x="586" y="83" width="244" height="244" rx="38" fill="url(#red)"/>
+    <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="708" cy="142" r="22" fill="#fff" stroke="none"/>
+      <path d="M683 171 626 298M733 171l58 127" stroke-width="17"/>
+      <path d="M646 250q62 54 124 0" stroke-width="13"/>
+      <path d="M708 100v17" stroke-width="14"/>
+    </g>
+    <text x="842" y="300" fill="#f7f5f1" font-family="Georgia, 'Times New Roman', serif" font-size="282" font-weight="700">R</text>
+    <text x="1080" y="300" fill="url(#red)" font-family="Georgia, 'Times New Roman', serif" font-size="310" font-weight="700">T</text>
+    <text x="342" y="432" fill="#e31320" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="800" letter-spacing="38">CONCEPT</text>
+  </g>
+</svg>

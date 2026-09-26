@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Drapeau de la Martinique</title>
+  <desc id="desc">Drapeau rouge, vert et noir de la Martinique</desc>
+  <path fill="#111" d="M0 0h900v300H0z"/>
+  <path fill="#159447" d="M0 300h900v300H0z"/>
+  <path fill="#d9232e" d="M0 0l450 300L0 600z"/>
+</svg>

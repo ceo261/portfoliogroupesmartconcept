@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Immo</title>
+  <desc id="desc">Logo Smart Immo bleu nuit et doré</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4dea2"/>
+      <stop offset=".5" stop-color="#d1aa5f"/>
+      <stop offset="1" stop-color="#9f7330"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b659d"/>
+      <stop offset="1" stop-color="#07192d"/>
+    </linearGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0H72V72H0Z" fill="none" stroke="#718097" stroke-width="4" opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect x="55" y="36" width="1090" height="300" rx="18" fill="url(#grid)"/>
+  <circle cx="252" cy="210" r="148" fill="none" stroke="url(#blue)" stroke-width="34"/>
+  <circle cx="252" cy="210" r="139" fill="#07121f" stroke="url(#gold)" stroke-width="13"/>
+  <path d="M160 188L252 105L344 188" fill="none" stroke="url(#gold)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M181 184V292H323V184" fill="none" stroke="#efe4ce" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M211 292V208H293V292M236 208V292M268 208V292" fill="none" stroke="url(#gold)" stroke-width="11"/>
+  <text x="456" y="191" fill="#f6f7f9" stroke="#07121f" stroke-width="5" paint-order="stroke fill" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="800" letter-spacing="5">SMART</text>
+  <text x="456" y="307" fill="url(#gold)" stroke="#07121f" stroke-width="5" paint-order="stroke fill" font-family="Arial, Helvetica, sans-serif" font-size="126" font-weight="800" letter-spacing="4">IMMO</text>
+</svg>
