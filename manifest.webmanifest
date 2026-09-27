@@ -1,0 +1,34 @@
+{
+  "id": "/portfoliogroupesmartconcept/",
+  "name": "Portfolio Groupe Smart Concept",
+  "short_name": "Groupe Smart",
+  "description": "Portfolio corporate du Groupe Smart Concept.",
+  "lang": "fr",
+  "start_url": "/portfoliogroupesmartconcept/",
+  "scope": "/portfoliogroupesmartconcept/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#08090b",
+  "theme_color": "#0b0c0e",
+  "icons": [
+    {
+      "src": "pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+.install-app{
+  position:static;
+  z-index:1;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  width:100%;
+  min-height:32px;
+  padding:7px 10px;
+  border:1px solid rgba(224,192,123,.5);
+  border-radius:999px;
+  background:rgba(7,8,9,.9);
+  color:#ead095;
+  box-shadow:0 12px 35px rgba(0,0,0,.27);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  font:800 .64rem/1 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+.install-app:hover,.install-app:focus-visible{color:#fff;border-color:#ead095;transform:translateY(-1px);outline:0}
+.install-app[hidden]{display:none!important}
+.install-app svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+.install-help{
+  width:min(92vw,520px);
+  padding:0;
+  border:1px solid rgba(224,192,123,.5);
+  border-radius:24px;
+  background:#0b0c0e;
+  color:#f5f3ef;
+  box-shadow:0 30px 100px rgba(0,0,0,.65);
+}
+.install-help::backdrop{background:rgba(0,0,0,.72);backdrop-filter:blur(5px)}
+.install-help-card{position:relative;padding:30px}
+.install-help-logo{display:block;width:96px;height:96px;margin:0 0 24px;border-radius:22px;box-shadow:0 14px 36px rgba(0,0,0,.38)}
+.install-help small{display:block;color:#d3b373;font-size:.63rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+.install-help h2{margin:9px 0 14px;color:#f5f3ef;font:500 clamp(1.85rem,6vw,2.7rem)/1 Georgia,"Times New Roman",serif;letter-spacing:-.035em;text-shadow:none}
+.install-help p{margin:0;color:#c9c5bd;font-size:1rem;line-height:1.65}
+.install-help strong{color:#fff}
+.install-help-close{position:absolute;top:16px;right:16px;width:38px;height:38px;border:1px solid rgba(255,255,255,.16);border-radius:50%;background:#141517;color:#fff;font-size:1.35rem;cursor:pointer}
+.about-top{padding-top:105px!important}
+@media(max-width:700px){.install-app{min-height:30px;padding:6px 8px;font-size:.52rem}.install-app svg{width:14px;height:14px}.install-help-card{padding:24px}.install-help-logo{width:82px;height:82px}.about-top{padding-top:101px!important}}
+@media print{.install-app,.install-help{display:none!important}}
