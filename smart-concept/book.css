@@ -102,8 +102,15 @@ h2{max-width:12ch;margin:18px 0 26px;font-size:clamp(3rem,5.6vw,6.7rem);line-hei
 .proof h2{max-width:11.5ch;font-size:clamp(2.8rem,4.7vw,5.5rem)}
 .proof h2 em{color:#a90b13}
 .proof-intro{display:flex;align-items:flex-end;justify-content:space-between;gap:34px}
+.proof-side{max-width:560px}
 .proof-intro .lead{max-width:52ch;color:#5b5852}
 .proof-badge{flex:0 0 auto;padding:9px 12px;border:1px solid rgba(0,0,0,.25);border-radius:999px;color:#3e3c38;font-size:.58rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
+.review-badges{display:flex;gap:8px;margin:11px 0 5px}
+.review-card{display:flex;flex:1;align-items:center;gap:10px;min-width:0;padding:9px 11px;border:1px solid rgba(169,11,19,.2);border-radius:8px;background:#fff;color:#222;text-decoration:none;box-shadow:0 7px 18px rgba(0,0,0,.05);transition:transform .2s ease,border-color .2s ease}
+.review-card:hover,.review-card:focus-visible{transform:translateY(-2px);border-color:#a90b13}
+.review-card b{flex:0 0 auto;color:#a90b13;font-size:.92rem}
+.review-card span{font-size:.56rem;font-weight:750;line-height:1.35;letter-spacing:.03em}
+.review-note{display:block;color:#77736c;font-size:.5rem;line-height:1.4}
 .gallery{display:flex;gap:14px;height:min(40vh,360px);margin-top:auto}
 .shot{position:relative;flex:1;min-width:0;min-height:0;margin:0;overflow:hidden;background:#111}
 .shot.wide{flex:1}
@@ -182,7 +189,7 @@ h2{max-width:12ch;margin:18px 0 26px;font-size:clamp(3rem,5.6vw,6.7rem);line-hei
   .scope{margin-bottom:28px}
   .field-copy{padding-top:47vh}
   .field-point{flex-direction:column;gap:7px}.field-point b{flex-basis:auto}
-  .proof-intro{display:block}.proof-badge{display:inline-block;margin-bottom:18px}
+  .proof-intro{display:block}.proof-side{max-width:none}.proof-badge{display:inline-block;margin-bottom:4px}.review-badges{flex-wrap:wrap}.review-card{flex-basis:210px}
   .commerce-intro{display:block}.commerce-gallery{height:auto;display:block}.commerce-main{height:360px;margin-bottom:10px}.commerce-stack figure{height:250px}
   .gallery{display:block}.shot,.shot.wide{height:280px;margin-bottom:12px}
   .agency{flex-basis:100%}
@@ -201,7 +208,7 @@ h2{max-width:12ch;margin:18px 0 26px;font-size:clamp(3rem,5.6vw,6.7rem);line-hei
   .compare article{padding:5mm!important}.compare article:first-child{padding-left:0!important}.compare p{font-size:7.3pt!important}
   .offer-card{min-width:0!important;padding:5mm 4mm!important}.offer-card:first-child{padding-left:0!important}.offer-card p{font-size:6.8pt!important}.scope{margin-top:5mm!important}
   .field-copy{width:50%!important;padding-left:10mm!important}.field-point{padding:3mm 0!important}.field-point span{font-size:7pt!important}
-  .proof h2{font-size:26pt!important}.proof-intro .lead{font-size:7pt!important;line-height:1.35!important}.gallery{height:82mm!important;gap:3mm!important}.shot figcaption{left:3mm!important;right:3mm!important;bottom:2mm!important}.shot figcaption b{font-size:6pt!important}.shot figcaption span{font-size:4.2pt!important}
+  .proof h2{font-size:26pt!important}.proof-side{max-width:100mm!important}.proof-intro .lead{font-size:7pt!important;line-height:1.35!important}.review-badges{gap:2mm!important;margin:2mm 0 1mm!important}.review-card{padding:2mm!important;box-shadow:none!important}.review-card b{font-size:7pt!important}.review-card span{font-size:4.4pt!important}.review-note{font-size:4pt!important}.gallery{height:82mm!important;gap:3mm!important}.shot figcaption{left:3mm!important;right:3mm!important;bottom:2mm!important}.shot figcaption b{font-size:6pt!important}.shot figcaption span{font-size:4.2pt!important}
   .commerce-intro h2{font-size:31pt!important}.commerce-gallery{height:82mm!important}.commerce-gallery figcaption{font-size:5.2pt!important}
   .method-step{padding:5mm 3mm!important}.method-step:first-child{padding-left:0!important}.method-step p{font-size:6.3pt!important}.deliverables{font-size:5.8pt!important}
   .agency{min-width:0!important;padding:4mm!important}.agency strong{font-size:14pt!important}.agency span{font-size:5.8pt!important}.network-note{font-size:6pt!important}
